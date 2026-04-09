@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shimaa Tarek - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <h1>Shimaa Tarek</h1>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="content">
+      <h1>Hello, I'm Shimaa</h1>
+      <p>Junior Web Developer | Linux System Admin Background</p>
+      <a href="#projects"><button>View Projects</button></a>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <h2>My Projects</h2>
+    <div class="projects-grid">
+      <!-- Project 1 -->
+      <div class="project-card">
+        <img src="assets/imgs/landing page.PNG" alt="Landing Page">
+        <h3>Landing Page</h3>
+        <p>Responsive landing page built with HTML & CSS</p>
+        <a href="https://starek77.github.io/landing-page-project/" target="_blank">View Live</a>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card">
+        <img src="assets/imgs/login page.PNG" alt="Login Page">
+        <h3>Login Page</h3>
+        <p>Modern login page with overlay and responsive design</p>
+        <a href="https://starek77.github.io/landing-page-project/login.html" target="_blank">View Live</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2>About Me</h2>
+    <p>Junior Web Developer with a strong Linux admin background, passionate about building clean, responsive websites and continuously learning new technologies.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Shimaa Tarek</p>
+  </footer>
+
+</body>
+</html>
